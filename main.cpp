@@ -724,6 +724,7 @@ bool init(){
   }
 
   /* debug: print the pixel to piece mapping (pipe it to a file) */
+/*
   for(int j=0; j<height; j++){
     for (int i=0; i<width; i++){
       if ( piece_map[i][j] == -1)
@@ -733,7 +734,7 @@ bool init(){
     }
     printf("\n");
   }
-
+*/
 
   /*
    * Fill pieces with photo data
